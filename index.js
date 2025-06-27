@@ -24,11 +24,11 @@ const deleteBtn = document.getElementById("delete-btn")
 
 function render(leads) {
     let listItems = ""
-    for (let i = 0; i < leads.length; i++) {
+    for (const element of leads) {
         listItems += `
             <li>
-                <a target='_blank' href='${leads[i]}'>
-                    ${leads[i]}
+                <a target='_blank' href='${element}'>
+                    ${element}
                 </a>
             </li>
         `
