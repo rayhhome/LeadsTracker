@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s069lst",
+  "description": "https://scrimba.com/frontend-path-c0j/~04gl",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
