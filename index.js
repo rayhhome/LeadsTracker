@@ -8,7 +8,7 @@ import {
  } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-database.js";
 
 const firebaseConfig = {
-    databaseURL: import.meta.env.DATABASE_URL,
+    databaseURL: import.meta.env.VITE_DATABASE_URL,
 }
 
 const app = initializeApp(firebaseConfig)
